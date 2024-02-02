@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# 결제 앱 이니시스 창 열기 test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+이사님 설치하기전에 보셔요!
 
-## Available Scripts
+## step1.
 
-In the project directory, you can run:
+일단 코드 레포 클론을 하시거나 다운로드를 하셔서 vscode를 실행하시면 됩니다.
 
-### `npm start`
+## step2.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+설치를 하시고 해당 vscode 터미널에가서 아래와 같이 명령어를 쳐주세요
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+npm i
+```
 
-### `npm test`
+패키지 설치를 다하셨으면 아래 명령어를 쳐주세요
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm run start
+```
 
-### `npm run build`
+여기까지 하시면 웹 브라우저가 켜질거예요!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## step3.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+실제 브라우저에서도 설명을 적었지만 여기서도 적겠습니다. 
+test하실때 단축키 `커맨드 + 옵션 + J 키` 누르고 작업해주세요
+웹용아 아니라 모바일용으로 결제창을 띄우기 위함입니다.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## step4.
 
-### `npm run eject`
+지금 저희가 하는 작업은 앱용 결제창을 띄우기 위한 작업이며 리엑트에서
+php서버로 데이터를 받고 해당 데이터를 바인딩이 안되어 결제창이 안나오는 현상을 
+해결하는 과제입니다. 고로 바인딩이 잘되면 결제창이 나올것으로 판단됩니다.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+혹시 몰라서 배포링크도 따로 준비했으니 편하게 작업하시면 됩니다. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[배포링크입니다. 클릭 me!](https://app-payment-test-delta.vercel.app/)
